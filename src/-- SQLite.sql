@@ -1,0 +1,3 @@
+-- SQLite
+CREATE TABLE expe(id INT,NAME TEXT);
+SELECT * FROM expe;

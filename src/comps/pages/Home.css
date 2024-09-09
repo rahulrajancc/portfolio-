@@ -1,0 +1,77 @@
+ #home_c{
+display: flex;
+flex-direction: column;
+align-items: center;
+   
+   
+    margin-top: 6rem;
+  
+    gap: 2rem;
+   background-image: url('../../img/luca-bravo-XJXWbfSo2f0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:cover
+   
+  
+ }
+ .home_contents{
+  margin-bottom: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+justify-content: center;
+
+gap: 3rem;
+ }
+
+
+
+
+
+
+ .tabs{
+  width: 20vw;
+  height: 21rem;
+  
+  align-self:start;
+  justify-content: center;
+  background-color: #2c295f;
+  border-radius: 2rem;
+  font-size: large;
+  /* margin: 2rem; */
+  padding: 2rem;
+ }
+ .home_icon{
+height: auto;
+width: 13rem;
+
+ }
+ #home_c h1{
+  font-size: 6rem;
+ }
+ #home_c h3{
+  font-size: 2rem;
+ }
+@media (max-width:1064px) {
+#home_c{
+  background-image: url('../../img/luca-bravo-XJXWbfSo2f0-unsplash.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin: 0;
+}
+.home_contents{
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+.tabs{
+  width: 50vw;
+}
+#home_c h3{
+  font-size: 1rem;
+ }
+ #home_c h1{
+  font-size: 4rem;
+ }
+}

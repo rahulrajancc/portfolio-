@@ -1,0 +1,45 @@
+.Pro_section_main{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+    align-content: center;
+     color: black;  
+}
+.Pro_section{
+    width: 20vw;
+    height: max-content;
+ 
+    
+    align-self:start;
+    justify-content: center;
+    background-color: #2c295f;
+    border-radius: 2rem;
+    font-size: large;
+    /* margin: 2rem; */
+    padding: 2rem;
+}
+@media (max-width:1064px) {
+  
+    .Pro_section_main{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:1rem
+    }
+    .Pro_section{
+        width: 30vh;
+        height: max-content;
+      
+        align-self:start;
+        justify-content: center;
+      
+        border-radius: 2rem;
+        font-size: large;
+        /* margin: 2rem; */
+        padding: 2rem;
+    }
+}

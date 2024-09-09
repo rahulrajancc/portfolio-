@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Tabar from './comps/tabar';
+import Homes from './comps/pages/Home';
+import About from './comps/pages/About';
+import Pro from './comps/pages/Pro';
+import Exp from './comps/pages/Exp';
+import Cont from './comps/pages/cont';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundColor:'#111929'}}>
+     <Tabar className="Tabar_app" />
+     <div className='Main_content'>
+      <div className='Home_cls'>
+      <div><Homes /></div>
+      </div>
+      <div ><hr/><About /> </div>
+      <div><hr/><Pro/></div><hr/>
+      <div><hr/> <Exp/></div>
+      <div><hr/> <Cont /></div>
+     </div>
+    
+     
+     
+  
     </div>
   );
 }

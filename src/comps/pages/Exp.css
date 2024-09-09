@@ -1,0 +1,42 @@
+.Exp_section{
+
+    display: flex;
+    flex-direction: row;
+    gap:1rem
+    
+}
+.Exp_main_content{
+    width: 20vw;
+    height: max-content;
+   
+    align-self:start;
+    justify-content: center;
+    background-color: #2c295f;
+    border-radius: 2rem;
+    font-size: large;
+    /* margin: 2rem; */
+    padding: 2rem;
+}
+@media (max-width:1064px) {
+
+    .Exp_section{
+
+        display: flex;
+        flex-direction: column;
+        gap:1rem
+        
+    }
+    .Exp_main_content{
+        width: 60vw;
+        height: max-content;
+     
+        align-self:start;
+        justify-content: center;
+     
+        border-radius: 2rem;
+        font-size: large;
+        /* margin: 2rem; */
+        padding: 2rem;
+    }
+
+}
