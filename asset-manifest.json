@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-/static/css/main.c9b21817.css",
+    "main.js": "/portfolio-/static/js/main.e0bef092.js",
+    "static/js/453.65be0fa9.chunk.js": "/portfolio-/static/js/453.65be0fa9.chunk.js",
+    "static/media/luca-bravo-XJXWbfSo2f0-unsplash.jpg": "/portfolio-/static/media/luca-bravo-XJXWbfSo2f0-unsplash.c93b61047910ffc4cf87.jpg",
+    "static/media/1724655739919.png": "/portfolio-/static/media/1724655739919.4b033e8fccf938035ed0.png",
+    "static/media/leetc .png": "/portfolio-/static/media/leetc .1187ce943ec357baf0cd.png",
+    "static/media/project-management.png": "/portfolio-/static/media/project-management.e0da2530164713549545.png",
+    "static/media/quality.png": "/portfolio-/static/media/quality.dc5c470848afab7adc2d.png",
+    "static/media/customer-service.png": "/portfolio-/static/media/customer-service.bfe2fea2641cbe07091b.png",
+    "static/media/github.png": "/portfolio-/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/1_biIy42Cn4Bnu0IkpUW1Zew.png": "/portfolio-/static/media/1_biIy42Cn4Bnu0IkpUW1Zew.00fd2e72644a332d1167.png",
+    "static/media/instagram.png": "/portfolio-/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/gmail.png": "/portfolio-/static/media/gmail.a2f2146f929409405da0.png",
+    "static/media/linkedin.png": "/portfolio-/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/portfolio-/index.html",
+    "main.c9b21817.css.map": "/portfolio-/static/css/main.c9b21817.css.map",
+    "main.e0bef092.js.map": "/portfolio-/static/js/main.e0bef092.js.map",
+    "453.65be0fa9.chunk.js.map": "/portfolio-/static/js/453.65be0fa9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9b21817.css",
+    "static/js/main.e0bef092.js"
+  ]
+}
