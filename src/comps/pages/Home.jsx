@@ -12,10 +12,10 @@ const Homes = () => {
     const [HSolved, setHSolved] = useState(0);
     const [Rank, setrank] = useState(0);
     const [totalSolved, settotalSolved] = useState(0);
-    const [github, setgithub]=useState('0');
+   
 
     useEffect(() => {
-        // Fetch data when the component mounts
+      
         fetch('https://leetcode-stats-api.herokuapp.com/rahulr123')
             .then(response => response.json())
             .then(data => {
@@ -29,19 +29,8 @@ const Homes = () => {
             })
             .catch(error => console.error('Error:', error));
 
-            const token='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';
-            fetch('https://api.github.com/users/rahulrajancc/repos',{
-                method:'GET',
-                headers:{
-                    'Authorization':`token ${token}`,
-                    'Accept':'application/vnd.github.v3+json',
-
-                   
-                    
-                }
-            }
-                
-            )
+           
+            fetch('https://api.github.com/users/rahulrajancc/repos')
             .then(response => response.json())
             .then(data => {
                 for( i;i<=8;i++){
@@ -52,6 +41,7 @@ const Homes = () => {
                    gi_list.appendChild(newa);
                    newa.innerHTML=`<li>${i+1}: ${data[i].name}</li>`;
                 }
+                console.log(data[1]);
                
                
                
